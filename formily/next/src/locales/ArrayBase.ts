@@ -1,4 +1,4 @@
-import { GlobalRegistry } from '@designable/core'
+import { GlobalRegistry } from '@liukefu/designable-core'
 
 GlobalRegistry.registerDesignerLocales({
   'zh-CN': {

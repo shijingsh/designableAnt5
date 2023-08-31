@@ -4,8 +4,8 @@ import {
   ClosestPosition,
   CursorStatus,
   DragMoveEvent,
-} from '@designable/core'
-import { isFn } from '@designable/shared'
+} from '@liukefu/designable-core'
+import { isFn } from '@liukefu/designable-shared'
 import { autorun } from '@formily/reactive'
 import { observer } from '@formily/reactive-react'
 import {

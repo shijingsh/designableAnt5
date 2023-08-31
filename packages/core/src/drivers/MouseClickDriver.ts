@@ -1,4 +1,4 @@
-import { EventDriver } from '@designable/shared'
+import { EventDriver } from '@liukefu/designable-shared'
 import { Engine } from '../models/Engine'
 import { MouseClickEvent, MouseDoubleClickEvent } from '../events'
 

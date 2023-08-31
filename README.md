@@ -31,3 +31,30 @@ This project exists thanks to all the people who contribute.
 <p>
 <a href="https://github.com/alibaba/designable/graphs/contributors"><img src="https://contrib.rocks/image?repo=alibaba/designable" /></a>
 </p>
+
+
+## publish order
+
+---
+原始版本号：  1.0.0-beta.45
+当前版本号：  1.0.0-beta.47
+---
+
+---
+@designable/shared
+@designable/core
+@designable/react
+@designable/react-sandbox
+@designable/react-settings-form
+@designable/formily-setters
+@designable/formily-transformer
+---
+
+- @liukefu/designable-shared
+- @liukefu/designable-core
+- @liukefu/designable-react
+- @liukefu/designable-react-sandbox
+- @liukefu/designable-react-settings-form
+- @liukefu/designable-formily-setters
+- @liukefu/designable-formily-transformer
+

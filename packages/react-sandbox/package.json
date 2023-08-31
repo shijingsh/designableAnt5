@@ -1,6 +1,6 @@
 {
   "name": "@liukefu/designable-react-sandbox",
-  "version": "1.0.0-beta.46",
+  "version": "1.0.0-beta.47",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
@@ -26,8 +26,8 @@
     "react": "16.x || 17.x"
   },
   "dependencies": {
-    "@liukefu/designable-react": "1.0.0-beta.46",
-    "@liukefu/designable-shared": "1.0.0-beta.46"
+    "@liukefu/designable-react": "1.0.0-beta.47",
+    "@liukefu/designable-shared": "1.0.0-beta.47"
   },
   "publishConfig": {
     "access": "public"

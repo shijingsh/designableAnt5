@@ -28,11 +28,11 @@ const presets = () => {
     '@formily/core': 'Formily.Core',
     '@formily/json-schema': 'Formily.JSONSchema',
     '@formily/react': 'Formily.React',
-    '@designable/shared': 'Designable.Shared',
-    '@designable/core': 'Designable.Core',
-    '@designable/react': 'Designable.React',
-    '@designable/react-sandbox': 'Designable.ReactSandbox',
-    '@designable/react-settings-form': 'Designable.ReactSettingsForm',
+    '@liukefu/designable-shared': 'Designable.Shared',
+    '@liukefu/designable-core': 'Designable.Core',
+    '@liukefu/designable-react': 'Designable.React',
+    '@liukefu/designable-react-sandbox': 'Designable.ReactSandbox',
+    '@liukefu/designable-react-settings-form': 'Designable.ReactSettingsForm',
   }
   return [
     typescript({
