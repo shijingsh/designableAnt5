@@ -34,6 +34,9 @@ This project exists thanks to all the people who contribute.
 
 
 ## publish order
+---
+npx -p @ant-design/codemod-v5 antd5-codemod src
+---
 
 ---
 原始版本号：  1.0.0-beta.45
