@@ -1,5 +1,5 @@
 {
-  "name": "@designable/react",
+  "name": "@shijingsh/designable-react",
   "version": "1.0.0-beta.45",
   "license": "MIT",
   "main": "lib",
@@ -29,8 +29,8 @@
   "peerDependencies": {
     "@formily/reactive": "^2.0.2",
     "@formily/reactive-react": "^2.0.2",
-    "antd": "^4.15.4",
-    "react": "16.x || 17.x"
+    "antd": "5.x",
+    "react": "16.x || 17.x || 18.x"
   },
   "dependencies": {
     "@designable/core": "1.0.0-beta.45",
