@@ -49,7 +49,7 @@ export const DataSourceSetter: React.FC<IDataSourceSetterProps> = observer(
     const openModal = () => setModalVisible(true)
     const closeModal = () => setModalVisible(false)
     return (
-      <Fragment>
+      (<Fragment>
         <Button block onClick={openModal}>
           <TextWidget token="SettingComponents.DataSourceSetter.configureDataSource" />
         </Button>
@@ -61,7 +61,7 @@ export const DataSourceSetter: React.FC<IDataSourceSetterProps> = observer(
           bodyStyle={{ padding: 10 }}
           transitionName=""
           maskTransitionName=""
-          visible={modalVisible}
+          open={modalVisible}
           onCancel={closeModal}
           onOk={() => {
             onChange(transformDataToValue(treeDataSource.dataSource))
@@ -89,7 +89,7 @@ export const DataSourceSetter: React.FC<IDataSourceSetterProps> = observer(
             </div>
           </div>
         </Modal>
-      </Fragment>
-    )
+      </Fragment>)
+    );
   }
 )
