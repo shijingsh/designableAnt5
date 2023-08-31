@@ -1,5 +1,5 @@
 {
-  "name": "@designable/react-settings-form",
+  "name": "@liukefu/designable-react-settings-form",
   "version": "1.0.0-beta.45",
   "license": "MIT",
   "main": "lib",
@@ -38,7 +38,7 @@
     "@formily/reactive": "^2.0.2",
     "@formily/reactive-react": "^2.0.2",
     "@formily/shared": "^2.0.2",
-    "antd": "5.x",
+    "antd": "5.x"
   },
   "dependencies": {
     "@babel/parser": "^7.14.7",
