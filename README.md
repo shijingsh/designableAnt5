@@ -64,3 +64,12 @@ This project exists thanks to all the people who contribute.
 - @liukefu/designable-react-settings-form
 - @liukefu/designable-formily-setters
 - @liukefu/designable-formily-transformer
+
+---
+
+@{ant-prefix} ant
+@border-color-split #f0f0f0
+@text-color-secondary rgba(0, 0, 0, .45)
+@primary-color #1890ff
+
+---

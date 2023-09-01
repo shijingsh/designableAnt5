@@ -12,7 +12,7 @@ const HELPER_DEBOUNCE_TIMEOUT = 100
 
 export interface IHelpersProps {
   node: TreeNode
-  nodeRect: DOMRect
+  nodeRect: any
 }
 export interface IViewportState {
   viewportWidth?: number
