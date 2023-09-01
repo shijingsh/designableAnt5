@@ -71,5 +71,6 @@ This project exists thanks to all the people who contribute.
 @border-color-split #f0f0f0
 @text-color-secondary rgba(0, 0, 0, .45)
 @primary-color #1890ff
-
+@border-color-base  #d9d9d9
+@text-color rgba(0, 0, 0, .85)
 ---
