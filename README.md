@@ -32,18 +32,21 @@ This project exists thanks to all the people who contribute.
 <a href="https://github.com/alibaba/designable/graphs/contributors"><img src="https://contrib.rocks/image?repo=alibaba/designable" /></a>
 </p>
 
-
 ## publish order
+
 ---
-npx -p @ant-design/codemod-v5 antd5-codemod src
+
+## npx -p @ant-design/codemod-v5 antd5-codemod src
+
+---
+
+原始版本号： 1.0.0-beta.45
+当前版本号： 1.0.0-beta.48
+
 ---
 
 ---
-原始版本号：  1.0.0-beta.45
-当前版本号：  1.0.0-beta.47
----
 
----
 @designable/shared
 @designable/core
 @designable/react
@@ -51,6 +54,7 @@ npx -p @ant-design/codemod-v5 antd5-codemod src
 @designable/react-settings-form
 @designable/formily-setters
 @designable/formily-transformer
+
 ---
 
 - @liukefu/designable-shared
@@ -60,4 +64,3 @@ npx -p @ant-design/codemod-v5 antd5-codemod src
 - @liukefu/designable-react-settings-form
 - @liukefu/designable-formily-setters
 - @liukefu/designable-formily-transformer
-
