@@ -28,7 +28,7 @@ import {
   FormCollapse,
   ArrayTable,
   ArrayCards,
-} from '@formily/antd'
+} from '@formily/antd-v5'
 import { Card, Slider, Rate } from 'antd'
 import { TreeNode } from '@liukefu/designable-core'
 import { transformToSchema } from '@liukefu/designable-formily-transformer'

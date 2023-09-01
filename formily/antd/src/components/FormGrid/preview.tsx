@@ -1,6 +1,10 @@
 import React from 'react'
-import { FormGrid as FormilyGird } from '@formily/antd'
-import { TreeNode, createBehavior, createResource } from '@liukefu/designable-core'
+import { FormGrid as FormilyGird } from '@formily/antd-v5'
+import {
+  TreeNode,
+  createBehavior,
+  createResource,
+} from '@liukefu/designable-core'
 import {
   DnFC,
   useTreeNode,

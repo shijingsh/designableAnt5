@@ -1,5 +1,5 @@
 import React from 'react'
-import { Upload as FormilyUpload } from '@formily/antd'
+import { Upload as FormilyUpload } from '@formily/antd-v5'
 import { createBehavior, createResource } from '@liukefu/designable-core'
 import { DnFC } from '@liukefu/designable-react'
 import { createFieldSchema } from '../Field'
