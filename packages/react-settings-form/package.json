@@ -1,6 +1,6 @@
 {
   "name": "@liukefu/designable-react-settings-form",
-  "version": "1.0.0-beta.48",
+  "version": "1.0.0-beta.49",
   "license": "MIT",
   "main": "lib",
   "types": "lib/index.d.ts",
@@ -42,9 +42,9 @@
   },
   "dependencies": {
     "@babel/parser": "^7.14.7",
-    "@liukefu/designable-core": "1.0.0-beta.48",
-    "@liukefu/designable-react": "1.0.0-beta.48",
-    "@liukefu/designable-shared": "1.0.0-beta.48",
+    "@liukefu/designable-core": "1.0.0-beta.49",
+    "@liukefu/designable-react": "1.0.0-beta.49",
+    "@liukefu/designable-shared": "1.0.0-beta.49",
     "@monaco-editor/react": "^4.2.1",
     "monaco-editor": "^0.25.2",
     "prettier": "^2.3.2",
