@@ -45,8 +45,10 @@ export const SettingsForm: React.FC<ISettingFormProps> = observer(
       //console.log(node);
       //配置控件名称
       if (!node?.props?.name) {
-        if (node.props && node.props['x-component']) {
-          node.props.name = node.props['x-component'] + '_' + uid()
+        if (node.props && node.props['x-designable-id']) {
+          node.props.name = node.props['x-designable-id']
+        }else{
+          node.props.name = uid()
         }
       }
       return createForm({
