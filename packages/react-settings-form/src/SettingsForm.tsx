@@ -2,7 +2,7 @@ import React, { useMemo } from 'react'
 import { createForm } from '@formily/core'
 import { Form } from '@formily/antd-v5'
 import { observer } from '@formily/react'
-import { requestIdle, cancelIdle } from '@liukefu/designable-shared'
+import { requestIdle, cancelIdle, uid } from '@liukefu/designable-shared'
 import {
   usePrefix,
   useSelected,
@@ -41,6 +41,14 @@ export const SettingsForm: React.FC<ISettingFormProps> = observer(
       selected.length === 1
     )
     const form = useMemo(() => {
+      //console.log("===============================SettingsForm===============================");
+      //console.log(node);
+      //配置控件名称
+      if (!node?.props?.name) {
+        if (node.props && node.props['x-component']) {
+          node.props.name = node.props['x-component'] + '_' + uid()
+        }
+      }
       return createForm({
         initialValues: node?.designerProps?.defaultProps,
         values: node?.props,
